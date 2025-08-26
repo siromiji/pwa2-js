@@ -39,3 +39,4 @@ console.log(str.trim());
 str = 'ASKFKdDSFdsfs';
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
+
