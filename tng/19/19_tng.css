@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.card-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  gap: 10px;
+}
+#apiUrl{
+  width:300px;
+}
+.main{padding: 10px;}
+.card{
+  padding-top: 70%;
+  background-size: cover;
+  background-repeat: none;
+}
+.loading{
+  background-color: rgba(0, 0, 0, 0.5);
+  width:100vw;
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  display: none;
+   
+}
+.loading > p {
+  width:100px;
+  background-color: #fff;
+  text-align: center;
+
+}
+.loading-on{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
